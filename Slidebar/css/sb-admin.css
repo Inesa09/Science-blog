@@ -420,3 +420,10 @@ footer.sticky-footer {
     width: calc(100% - 55px);
   }
 }
+.block{
+  height: 100px;
+  width: 100%;
+  margin: 30px; 
+  border:1px solid rgb(112, 104, 104);
+  border-radius: 2px;
+}
