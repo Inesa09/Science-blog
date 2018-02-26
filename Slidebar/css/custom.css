@@ -4,11 +4,15 @@
 	scroll-behavior: smooth;
 	position: fixed;
 	height: 100vh;
-    width: 255px;
+    width: 250px;
     
     top: 0;
     left: 0;
 }
+.out-of-scrolling-box {
+    width: 250px;
+}
+
 
 ::-webkit-scrollbar{
     width: 5px;
