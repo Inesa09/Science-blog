@@ -422,7 +422,7 @@ footer.sticky-footer {
 }
 .block{
   height: 100px;
-  width: 100%;
+  width: 80%;
   margin: 30px; 
   border:1px solid rgb(112, 104, 104);
   border-radius: 2px;
