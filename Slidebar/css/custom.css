@@ -1,3 +1,11 @@
+.top-bar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 0 60px;
+}
+
 .scrolling-box {
 	display: block;
 	overflow-y: scroll;
@@ -38,11 +46,13 @@
     margin: 30px; 
     border:1px solid rgb(112, 104, 104);
     border-radius: 2px;
-  }
-
-#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading:hover {
-    color: #868e96;
 }
+
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
+    /* text-align: center; */
+    color: #adb5bd;
+}
+
   .containerr {
     margin-top: 20px;
   }
