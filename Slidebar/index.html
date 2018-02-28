@@ -20,7 +20,7 @@
     <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 </head>
 
-<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+<body class="fixed-nav sticky-footer bg-dark" id="paggtop">
 
 
   <!-- Navigation-->
@@ -125,89 +125,45 @@
   <div class="content-wrapper">
     <div class="container-fluid">
 
-      <!-- Example DataTables Card-->
-      <div class="card mb-3" >
-        <div class="card-body">
-          <div class="table-responsive">
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-              <div class="block"></div>
-                                                        
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              success
-              <thead>
-                  <tr>
-                    <th>Name</th>
-                  </tr>
-                </thead>
-                <tfoot>
-                  <tr>
-                    <th>Name</th>
-                  </tr>
-                </tfoot>
-              <tbody>
-                  <tr >
-                      <td class="block">Tiger Nixon</td>
-                    </tr>
-                    <tr >
-                        <td class="block">Tiger Nixon</td>
-                      </tr>
-                      <tr >
-                          <td class="block">Tiger Nixon</td>
-                        </tr>
-                        <tr >
-                            <td class="block">Tiger Nixon</td>
-                          </tr>
-                          <tr >
-                              <td class="block">Tiger Nixon</td>
-                            </tr>
-                            <tr >
-                                <td class="block">Tiger Nixon</td>
-                              </tr>
-                              <tr >
-                                  <td class="block">Tiger Nixon</td>
-                                </tr>
-                                <tr >
-                                    <td class="block">Tiger Nixon</td>
-                                  </tr>
-                                  <tr >
-                                      <td class="block">Tiger Nixon</td>
-                                    </tr>
-                                    <tr >
-                                        <td class="block">Tiger Nixon</td>
-                                      </tr>
-                                      <tr >
-                                          <td class="block">Tiger Nixon</td>
-                                        </tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-                    <tr class="block"></tr>
-</tbody>
+      <div class="containerr">
+        <div class="jumbotron page" id="page1">
+           <div class="containerr">
+              <h1 class="display-3">Adding Pagination to your Website
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis veritatis quisquam quia exercitationem quaerat nulla ut totam, suscipit expedita perspiciatis illo, ad recusandae eius, autem est magni eos optio!
+              </h1>
 
-
-            </table>
-          </div>
+           <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti illum, sint quod id beatae soluta cum alias illo cumque. Impedit ex obcaecati quos voluptas similique perferendis cum pariatur ullam asperiores! In this article we teach you how to add pagination, an excellent way to navigate large amounts of content, to your website using a jQuery Bootstrap Plugin.</p>
+           <p><a class="btn btn-lg btn-success" href="https://www.solodev.com/blog/web-design/adding-pagination-to-your-website.stml" role="button">Learn More</a></p>
+           </div>
         </div>
-        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-    </div>
+        <div class="jumbotron page" id="page2">
+           <h1 class="display-3">Not Another Jumbotron</h1>
+           <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+           <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        </div>
+        <div class="jumbotron page" id="page3">
+           <h1 class="display-3">Data. Data. Data.</h1>
+           <p>This example is a quick exercise to illustrate how the default responsive navbar works. It's placed within a <code>.container</code> to limit its width and will scroll with the rest of the page's content.</p>
+           <p>
+              <a class="btn btn-lg btn-primary" href="../../components/navbar" role="button">View navbar docs »</a>
+           </p>
+        </div>
+        <div class="jumbotron page" id="page4">
+           <h1 style="-webkit-user-select: auto;">Buy Now!</h1>
+           <p class="lead" style="-webkit-user-select: auto;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+           <p style="-webkit-user-select: auto;"><a class="btn btn-lg btn-success" href="#" role="button" style="-webkit-user-select: auto;">Get started today</a></p>
+        </div>
+        <div class="jumbotron page" id="page5">
+           <h1 class="cover-heading">Cover your page.</h1>
+           <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+           <p class="lead">
+              <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+           </p>
+        </div>
+        <ul id="pagination-demo" class="pagination-lg pull-right"></ul>
+     </div>
+      <!-- Example DataTables Card-->
+ 
     </div>
 
 
@@ -223,7 +179,7 @@
 
 
     <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
+    <a class="scroll-to-top rounded" href="#paggtop">
       <i class="fa fa-angle-up"></i>
     </a>
 
@@ -242,6 +198,9 @@
     <!-- Custom scripts for this page-->
     <script src="js/sb-admin-datatables.min.js"></script>
     <script src="js/sb-admin-charts.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>  
+      <script src="https://www.solodev.com/_/assets/pagination/jquery.twbsPagination.js"></script>   
+  <script src="script.js"></script>
 
   </div>
 </body>
