@@ -43,3 +43,12 @@
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading:hover {
     color: #868e96;
 }
+  .containerr {
+    margin-top: 20px;
+  }
+  .page {
+    display: none;
+  }
+  .page-active {
+    display: block;
+  }
