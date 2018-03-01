@@ -1,3 +1,11 @@
+.top-bar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 60px 60px;
+}
+
 .scrolling-box {
 	display: block;
 	overflow-y: scroll;
@@ -38,12 +46,22 @@
     margin: 30px; 
     border:1px solid rgb(112, 104, 104);
     border-radius: 2px;
+<<<<<<< HEAD
   }
-
-#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading:hover {
-    color: #868e96;
+=======
 }
+>>>>>>> 8071ede7394f518e189c9ce55a48d1263ea7a376
+
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
+    /* text-align: center; */
+    color: #adb5bd;
+}
+<<<<<<< HEAD
   .container{
+=======
+
+  .containerr {
+>>>>>>> 8071ede7394f518e189c9ce55a48d1263ea7a376
     margin-top: 20px;
   }
   .page {
