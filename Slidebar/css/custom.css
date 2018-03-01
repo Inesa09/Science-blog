@@ -39,15 +39,11 @@
     border:1px solid rgb(112, 104, 104);
     border-radius: 2px;
   }
-<<<<<<< HEAD
-  .container {
-=======
 
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading:hover {
     color: #868e96;
 }
-  .containerr {
->>>>>>> 6f96f2c774b66fe4fa0b13d3e82a90b174389e06
+  .container{
     margin-top: 20px;
   }
   .page {
@@ -55,4 +51,7 @@
   }
   .page-active {
     display: block;
+  }
+  #pagination-demo .page{
+      display: inline;
   }
