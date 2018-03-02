@@ -101,3 +101,8 @@
   .jumbotron{
 background-color: white!important;
   }
+
+  .page.active .page-link{
+      background-color: steelblue;
+      color: seashell;
+  }
