@@ -143,6 +143,7 @@ body.fixed-nav {
   text-overflow: ellipsis;
 }
 
+
 @media (min-width: 992px) {
   #mainNav .navbar-brand {
     width: 250px;
