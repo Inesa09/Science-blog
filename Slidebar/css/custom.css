@@ -18,8 +18,23 @@
   .jumbotron{
 background-color: white!important;
   }
-
   .page.active .page-link{
       background-color: steelblue;
       color: seashell;
   }
+
+.tegs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-top: 5px;
+    border-top:1px solid black;
+}
+.tegs .badge{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.tegsText{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
