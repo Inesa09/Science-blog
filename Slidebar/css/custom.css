@@ -77,19 +77,12 @@
     border:1px solid rgb(112, 104, 104);
     border-radius: 2px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 0c14aad0bd7fde1734bd11ecf7ce5cbab5e2e13b
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
     color: #adb5bd;
 }
-<<<<<<< HEAD
 
-  .containerr {
-=======
-  .container{
->>>>>>> 0c14aad0bd7fde1734bd11ecf7ce5cbab5e2e13b
+  .containerr{
     margin-top: 20px;
   }
   .page {
