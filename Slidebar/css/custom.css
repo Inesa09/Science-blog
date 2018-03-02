@@ -77,21 +77,29 @@
     border:1px solid rgb(112, 104, 104);
     border-radius: 2px;
 }
+
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
     color: #adb5bd;
 }
 
-  .containerr {
+
+.containerr {
     margin-top: 20px;
+<<<<<<< HEAD
          background-color: #e9ecef; 
     border-radius: 0.3rem;
 }
   
   .page {
+=======
+}
+.page {
+>>>>>>> 7dbae36fb3eb86bc24035b2f9044b7a3efd54df1
     display: none;
-  }
-  .page-active {
+}
+.page-active {
     display: block;
+<<<<<<< HEAD
   }
   #pagination-demo .page{
       display: inline;
@@ -99,3 +107,9 @@
   .jumbotron{
 background-color: white!important;
   }
+=======
+}
+#pagination-demo .page{
+    display: inline;
+}
+>>>>>>> 7dbae36fb3eb86bc24035b2f9044b7a3efd54df1
