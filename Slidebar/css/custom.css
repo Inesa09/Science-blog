@@ -2,8 +2,38 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
-    margin: 60px 60px;
+    margin: 0 100px;
+    list-style: none;
+}
+
+.top-bar-menu {
+    list-style: none;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.top-bar-element {
+    margin: 0 20px;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    text-shadow: 0 1px 2px #191a1b, 0 1px 0 #191a1b;
+    color: #868e96;
+    height: 55px;
+
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.top-bar-element:link, .top-bar-element:visited {
+    color: #adb5bd;
+}
+
+.top-bar-element:hover, .top-bar-menu:hover {
+    color: #fff;
+    background-color: #2a2e33;
+    text-decoration: none;
 }
 
 .scrolling-box {
@@ -47,12 +77,19 @@
     border:1px solid rgb(112, 104, 104);
     border-radius: 2px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0c14aad0bd7fde1734bd11ecf7ce5cbab5e2e13b
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
-    /* text-align: center; */
     color: #adb5bd;
 }
+<<<<<<< HEAD
 
   .containerr {
+=======
+  .container{
+>>>>>>> 0c14aad0bd7fde1734bd11ecf7ce5cbab5e2e13b
     margin-top: 20px;
   }
   .page {
