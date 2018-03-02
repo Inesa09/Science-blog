@@ -78,13 +78,24 @@
 
 .containerr {
     margin-top: 20px;
+         background-color: #e9ecef; 
+    border-radius: 0.3rem;
 }
-.page {
+  
+  .page {
     display: none;
 }
 .page-active {
     display: block;
-}
-#pagination-demo .page{
-    display: inline;
-}
+  }
+  #pagination-demo .page{
+      display: inline;
+  }
+  .jumbotron{
+background-color: white!important;
+  }
+
+  .page.active .page-link{
+      background-color: steelblue;
+      color: seashell;
+  }
