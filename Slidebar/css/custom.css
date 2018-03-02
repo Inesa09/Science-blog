@@ -82,15 +82,16 @@
     color: #adb5bd;
 }
 
-  .containerr{
+
+.containerr {
     margin-top: 20px;
-  }
-  .page {
+}
+.page {
     display: none;
-  }
-  .page-active {
+}
+.page-active {
     display: block;
-  }
-  #pagination-demo .page{
-      display: inline;
-  }
+}
+#pagination-demo .page{
+    display: inline;
+}
