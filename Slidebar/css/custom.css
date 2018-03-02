@@ -83,7 +83,10 @@
 
   .containerr {
     margin-top: 20px;
-  }
+         background-color: #e9ecef; 
+    border-radius: 0.3rem;
+}
+  
   .page {
     display: none;
   }
@@ -92,4 +95,7 @@
   }
   #pagination-demo .page{
       display: inline;
+  }
+  .jumbotron{
+background-color: white!important;
   }
