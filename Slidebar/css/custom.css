@@ -14,7 +14,7 @@
 }
 
 .top-bar-element {
-    margin: 0 15px;
+    margin: 0 20px;
     font-family: 'FontAwesome';
     font-size: 20px;
     text-shadow: 0 1px 2px #191a1b, 0 1px 0 #191a1b;
@@ -27,11 +27,11 @@
 }
 
 .top-bar-element:link, .top-bar-element:visited {
-    color: #868e96;
+    color: #adb5bd;
 }
 
 .top-bar-element:hover, .top-bar-menu:hover {
-    color: #adb5bd;
+    color: #fff;
     background-color: #2a2e33;
     text-decoration: none;
 }
@@ -79,7 +79,6 @@
 }
 
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
-    /* text-align: center; */
     color: #adb5bd;
 }
   .container{
