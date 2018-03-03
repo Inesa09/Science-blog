@@ -19,6 +19,7 @@
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- My custom design-->
     <link href="css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -45,7 +46,7 @@
           </a>
         </li>
         
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Machine Learning">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Machine Learning"  onclick="toggle_visibility2('tags');">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-circle"></i>
             <span class="nav-link-text">Machine Learning</span>
@@ -62,7 +63,7 @@
         </li>
 
 
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Data Science">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Data Science"  onclick="toggle_visibility2('tags');">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-circle"></i>
             <span class="nav-link-text">Data Science</span>
@@ -79,7 +80,7 @@
         </li>
 
 
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Data Analysis">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Data Analysis"  onclick="toggle_visibility2('tags');">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-circle"></i>
             <span class="nav-link-text">Data Analysis</span>
@@ -111,15 +112,15 @@
             <span class="nav-link-text">Tags</span>
           </a>
           <div class="tags tags-in-bar" id="tags">
-            <span class="badge badge-primary">Primary</span>
-            <span class="badge badge-secondary">Secondary</span>
-            <span class="badge badge-success">Success</span>
-            <span class="badge badge-danger">Danger</span>
-            <span class="badge badge-warning">Warning</span>
-            <span class="badge badge-info">Info</span>
-            <span class="badge badge-light">Light</span>
-            <span class="badge badge-dark">Dark</span>
-            <span class="badge badge-darker">Darker</span>
+            <span class="badge badge-blue">Primary</span>
+            <span class="badge badge-blue">Secondary</span>
+            <span class="badge badge-blue">Success</span>
+            <span class="badge badge-blue">Danger</span>
+            <span class="badge badge-blue">Warning</span>
+            <span class="badge badge-blue">Info</span>
+            <span class="badge badge-blue">Light</span>
+            <span class="badge badge-blue">Dark</span>
+            <span class="badge badge-blue">Darker</span>
           </div>
         </li>
       </ul>
@@ -157,18 +158,20 @@
     <div class="article">
       <div class="article-top">
         <div class="article-top-element">
-          <h1 class="display-heading">Kaggle - Predicting Bike Sharing Demand</h1>
+          <h1 class="display-3 display-heading">Kaggle - Predicting Bike Sharing Demand</h1>
           <div class="tags">
               <span class="tagsText">Posted by </span>
-              <span class="badge badge-primary">Primary</span>
-              <span class="tagsText">under </span>
-              <span class="badge badge-secondary">Secondary</span>
-              <span class="badge badge-success">Success</span>
               <span class="badge badge-danger">Danger</span>
-              <span class="badge badge-warning">Warning</span>
-              <span class="badge badge-info">Info</span>
-              <span class="badge badge-light">Light</span>
-              <span class="badge badge-dark">Dark</span>
+              <span class="tagsText">under </span>
+              <span class="badge badge-primary">Primary</span>
+              <span class="badge badge-primary">Secondary</span>
+              <span class="badge badge-primary">Success</span>
+              <span class="badge badge-primary">Danger</span>
+              <span class="badge badge-primary">Warning</span>
+              <span class="badge badge-primary">Info</span>
+              <span class="badge badge-primary">Light</span>
+              <span class="badge badge-primary">Dark</span>
+              <span class="badge badge-primary">Darker</span>
           </div>
         </div>
 
@@ -177,7 +180,7 @@
         </div>
       </div>
 
-      <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti illum, sint quod id beatae soluta cum alias illo cumque. Impedit ex obcaecati quos voluptas similique perferendis cum pariatur ullam asperiores! In this article we teach you how to add pagination, an excellent way to navigate large amounts of content, to your website using a jQuery Bootstrap Plugin.</p>
+      <p class="lead article-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti illum, sint quod id beatae soluta cum alias illo cumque. Impedit ex obcaecati quos voluptas similique perferendis cum pariatur ullam asperiores! In this article we teach you how to add pagination, an excellent way to navigate large amounts of content, to your website using a jQuery Bootstrap Plugin.</p>
     </div>
 
   </div>
@@ -185,7 +188,7 @@
 
   <!-- /.container-fluid-->
   <!-- /.content-wrapper-->
-  <footer class="sticky-footer">
+  <footer class="sticky-footer article-footer">
     <div class="container">
       <div class="text-center">
         <small>Copyright © Your Website 2018</small>
