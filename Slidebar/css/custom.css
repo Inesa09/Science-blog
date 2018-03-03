@@ -145,6 +145,12 @@
     font-size: 0.8em;
     font-weight: bold;
 }
+.tagsText-in-article {
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Patua One';
+    color: rgb(56, 56, 56);
+}
 
 
 
@@ -173,10 +179,11 @@
 }
 
 .display-heading {
-    font-size: 3rem;
+    font-family: 'Patua One', cursive;
+    font-size: 2.5rem;
     font-weight: 200;
     line-height: 1.2;
-    margin-left: 10px;
+    margin-left: 20px;
     color: rgb(104, 103, 103);
 }
 .lead {
@@ -209,6 +216,7 @@
     font-size: 1.2rem;
     font-weight: 70;
     line-height: 1.2;
+    color: rgb(56, 56, 56);
 }
 .article-background {
     background-color: #e9ecef; 
@@ -241,14 +249,12 @@
 .display-3{
     font-family: 'Patua One', cursive;
     margin-left: 20px;
+    font-size: 2rem;
 }
 .shell{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.display-3{
-    font-size: 2rem;
 }
 @media (min-width: 1030px){
     .containerr{
