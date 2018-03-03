@@ -146,18 +146,35 @@
 }
 
 
-.display-3{
-    margin-left: 20px;
-}
+
 .underTitle{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10px;
 }
 .dataCreation{
     color: rgb(116, 117, 119);
+    font-size: 0.7em;
+}
+.articleTags{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+}
+.articleTags .badge{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.creatorName{
+    font-weight: bold;
+    font-size: 0.7em;
 }
 
 .display-heading {
+    /* padding-bottom: 10px;
+    border-bottom: 1px solid black; */
     font-size: 3rem;
     font-weight: 200;
     line-height: 1.2;
@@ -205,3 +222,23 @@
 footer {
     background-color: #d6d6d6 !important; 
 }
+.svg-inline--fa.fa-w-16 {
+    width: 0.7em;
+    margin-right: 2px;
+}
+.underTitle span{
+    margin-right: 5px;
+}
+.containerr .prebtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.display-3{
+    font-family: 'Patua One', cursive;
+    /* margin-left: 20px; */
+}
+
