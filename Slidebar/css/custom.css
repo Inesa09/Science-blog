@@ -185,4 +185,16 @@
 .display-3{
     font-family: 'Patua One', cursive;
 }
-
+.shell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display-3{
+    font-size: 2rem;
+}
+@media (min-width: 1030px){
+    .containerr{
+        width: 765px;
+    }
+}
