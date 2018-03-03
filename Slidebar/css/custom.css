@@ -66,6 +66,7 @@
 
     #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
         color: #adb5bd;
+        text-align: center;
     }
 
     .navbar {
@@ -93,39 +94,50 @@
 
 .containerr {
     margin-top: 20px;
-         background-color: #e9ecef; 
+    padding: 20px;
+    background-color: #e9ecef; 
     border-radius: 0.3rem;
 }
-  
-  .page {
+.page {
+    padding: 0;
     display: none;
 }
 .page-active {
     display: block;
   }
-  #pagination-demo .page{
-      display: inline;
-  }
-  .jumbotron{
-background-color: white!important;
-  }
-  .page.active .page-link{
-      background-color: steelblue;
-      color: seashell;
-  }
+#pagination-demo .page{
+    display: inline;
+}
+.jumbotron{
+    background-color: white !important;
+}
+.page.active .page-link{
+    background-color: steelblue;
+    color: seashell;
+}
 
-.tegs{
+.tags {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
     padding-top: 5px;
-    border-top:1px solid black;
 }
-.tegs .badge{
+.tags-in-bar {
+    margin-top: 0;
+}
+.tags .badge{
     margin-bottom: 10px;
     margin-left: 10px;
 }
-.tegsText{
+.tagsText{
     margin-bottom: 10px;
     margin-left: 10px;
+}
+
+.display-heading {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.display-none {
+    display: none;
 }

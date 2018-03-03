@@ -4871,6 +4871,11 @@ tbody.collapse.show {
   background-color: #1d2124;
 }
 
+.badge-darker {
+  color: #fff;
+  background-color: #2a2e33;
+}
+
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
