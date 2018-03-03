@@ -67,6 +67,7 @@
     #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
         color: #adb5bd;
         text-align: center;
+        cursor: default;
     }
 
     .navbar {
@@ -92,9 +93,17 @@
     }
 }
 
+.display-none {
+    display: none;
+}
+
+.content-wrapper {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
 .containerr {
     margin-top: 20px;
-    padding: 20px;
     background-color: #e9ecef; 
     border-radius: 0.3rem;
     padding: 10px;
@@ -120,7 +129,8 @@
 .tags {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    /* margin: 10px; */
+    margin-left: 10px;
     padding-top: 5px;
 }
 .tags-in-bar {
@@ -129,20 +139,14 @@
 .tags .badge{
     margin-bottom: 10px;
     margin-left: 10px;
+    cursor: pointer;
 }
-.display-heading {
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
-}
-.display-none {
-    display: none;
-}
-.display-3{
-    margin-left: 20px;
-}
-.lead{
+.tagsText{
     margin-left: 10px;
 }
+
+
+
 .underTitle{
     display: flex;
     flex-wrap: wrap;
@@ -167,6 +171,57 @@
     font-weight: bold;
     font-size: 0.7em;
 }
+
+.display-heading {
+    /* padding-bottom: 10px;
+    border-bottom: 1px solid black; */
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-left: 10px;
+    color: rgb(104, 103, 103);
+}
+.lead {
+    margin: 10px;
+    margin-top: 0;
+    padding-top: 10px;
+    border-top: 1px solid rgb(145, 143, 143);
+}
+
+.article-top {
+    display: flex;
+    align-items: center;
+}
+.article-top-element {
+    flex-grow: 1;
+}
+.article-top-element .tags{
+    margin-left: 0;
+}
+
+.date {
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid rgb(145, 143, 143);
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+.article-background {
+    background-color: #e9ecef; 
+}
+.article {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: #d6d6d6 !important; 
+}
 .svg-inline--fa.fa-w-16 {
     width: 0.7em;
     margin-right: 2px;
@@ -184,6 +239,7 @@
 }
 .display-3{
     font-family: 'Patua One', cursive;
+    /* margin-left: 20px; */
 }
 .shell{
     display: flex;
