@@ -4788,6 +4788,10 @@ tbody.collapse.show {
   background-color: #007bff;
 }
 
+.badge-blue {
+  background-color: #007bff9d;
+  color: #fff;
+}
 .badge-primary[href]:hover, .badge-primary[href]:focus {
   color: #fff;
   text-decoration: none;

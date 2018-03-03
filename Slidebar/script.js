@@ -50,3 +50,10 @@ function toggle_visibility(id) {
         e.style.display='none'
     }
 }
+
+function toggle_visibility2(id) {
+    var e = document.getElementById(id);
+    if (e.style.display == 'none') {
+        e.style.display ='block';
+    }
+}
