@@ -248,6 +248,7 @@ footer {
 }
 .display-3{
     font-size: 2rem;
+    margin-left: 15px;
 }
 @media (min-width: 1030px){
     .containerr{
