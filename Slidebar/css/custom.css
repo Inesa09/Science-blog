@@ -190,6 +190,7 @@
     margin: 10px;
     margin-top: 0;
     padding-top: 10px;
+    font-size: 1rem;
 }
 
 .article-content {
@@ -245,10 +246,12 @@
 .btn{
     margin-left: 15px;
     margin-right: 35px;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
 }
 .display-3{
     font-family: 'Patua One', cursive;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 2rem;
 }
 .shell{
@@ -256,8 +259,10 @@
     flex-direction: column;
     align-items: center;
 }
-@media (min-width: 1030px){
-    .containerr{
-        width: 765px;
-    }
+.pagination{
+    flex-wrap: wrap;
+}
+.page-link{
+    font-size: 1.1rem!important;
+    padding: 5px 13px!important;
 }
