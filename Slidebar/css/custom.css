@@ -72,10 +72,6 @@
     .navbar {
         padding: 0;
     }
-
-    .navbar-brand {
-        margin: 0.5rem 3.7rem;
-    }
     .img {
         margin-left: 5px;
     }
@@ -87,7 +83,6 @@
     }
 
 }
-
 @media (max-width: 992px) {
     .top-bar {
         margin-top: 15px;
@@ -100,16 +95,35 @@
         border-top: 1px dotted #adb5bd;
         height: 60px;
     }
+    .img-small {
+        height: 250px;
+        width: 250px;
+        align-self: center;
+    }
 }
+.navbar-brand {
+    font-family: 'Patua One', cursive;
+    font-size: 2rem;
+    margin: 0 20px;
+    padding: 0;
+}
+
+
 
 .display-none {
     display: none;
 }
-
 .content-wrapper {
     padding-top: 0;
     padding-bottom: 10px;
 }
+.shell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 .containerr {
     margin-top: 20px;
@@ -134,6 +148,15 @@
     background-color: steelblue;
     color: seashell;
 }
+.pagination{
+    flex-wrap: wrap;
+}
+.page-link {
+    font-size: 1.1rem!important;
+    padding: 5px 13px!important;
+}
+
+
 
 .tags {
     display: flex;
@@ -160,18 +183,6 @@
     font-family: 'Patua One';
     color: rgb(56, 56, 56);
 }
-
-
-
-.underTitle{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px;
-}
-.dataCreation{
-    color: rgb(116, 117, 119);
-    font-size: 0.7em;
-}
 .articleTags{
     display: flex;
     flex-wrap: wrap;
@@ -181,65 +192,26 @@
 }
 .articleTags .badge{
     margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.underTitle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.underTitle span{
+    margin-right: 5px;
+}
+.dataCreation{
+    color: rgb(116, 117, 119);
+    font-size: 0.7em;
 }
 .creatorName{
     font-weight: bold;
     font-size: 0.7em;
-}
-
-.display-heading {
-    font-family: 'Patua One', cursive;
-    font-size: 2.5rem;
-    font-weight: 200;
-    line-height: 1.2;
-    margin-left: 10px;
-    color: rgb(104, 103, 103);
-}
-.lead {
-    margin: 10px;
-    margin-top: 0;
-    padding-top: 10px;
-    font-size: 1rem;
-}
-
-.article-content {
-    border-top: 1px solid rgb(145, 143, 143);
-}
-
-.article-top {
-    display: flex;
-    align-items: flex-start;
-}
-.article-top-element .tags{
-    margin-left: 0;
-}
-
-.article-top-element .date {
-    margin: 10px 40px;
-    padding: 5px;
-    border: 1px solid rgb(145, 143, 143);
-    height: fit-content;
-    width: fit-content;
-    font-size: 1rem;
-    font-weight: 70;
-    line-height: 1.2;
-    color: rgb(56, 56, 56);
-}
-.article-background {
-    background-color: #e9ecef; 
-}
-.article {
-    margin: 20px 5px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 0.3rem;
-}
-
-.article-footer {
-    background-color: #d6d6d6 !important;
-}
-.underTitle span{
-    margin-right: 5px;
 }
 .containerr .prebtn{
     display: flex;
@@ -251,28 +223,59 @@
     font-size: 1rem;
     padding: 0.3rem 0.5rem;
 }
+.lead {
+    margin: 10px;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 1rem;
+}
 .display-3{
     font-family: 'Patua One', cursive;
     margin-left: 10px;
     font-size: 2rem;
 }
-.shell{
+
+
+
+.article {
+    margin: 20px 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0.3rem;
+}
+.article-background {
+    background-color: #e9ecef; 
+}
+.article-top {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
-.pagination{
-    flex-wrap: wrap;
+.article-top-element .tags{
+    margin-left: 0;
 }
-
-.navbar-brand {
+.article-top-element .date {
+    margin: 10px 40px;
+    padding: 5px;
+    border: 1px solid rgb(145, 143, 143);
+    height: fit-content;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 70;
+    line-height: 1.2;
+    color: rgb(56, 56, 56);
+}
+.display-heading {
     font-family: 'Patua One', cursive;
-    font-size: 2rem;
-    margin: 0 20px;
-    padding: 0;
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-left: 10px;
+    color: rgb(104, 103, 103);
+}
+.article-content {
+    border-top: 1px solid rgb(145, 143, 143);
+}
+.article-footer {
+    background-color: #d6d6d6 !important;
 }
 
-.page-link {
-    font-size: 1.1rem!important;
-    padding: 5px 13px!important;
-}
