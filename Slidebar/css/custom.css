@@ -66,7 +66,6 @@
 
     #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .heading {
         color: #adb5bd;
-        text-align: center;
         cursor: default;
     }
 
@@ -77,6 +76,16 @@
     .navbar-brand {
         margin: 0.5rem 3.7rem;
     }
+    .img {
+        margin-left: 5px;
+    }
+    .img-small {
+        height: 20px;
+    }
+    .img-big{
+        height: 225px;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -183,7 +192,7 @@
     font-size: 2.5rem;
     font-weight: 200;
     line-height: 1.2;
-    margin-left: 20px;
+    margin-left: 10px;
     color: rgb(104, 103, 103);
 }
 .lead {
@@ -198,22 +207,19 @@
 
 .article-top {
     display: flex;
-    align-items: center;
-}
-.article-top-element {
-    flex-grow: 1;
+    align-items: flex-start;
 }
 .article-top-element .tags{
     margin-left: 0;
 }
 
-.date {
-    margin: 20px;
+.article-top-element .date {
+    margin: 10px 40px;
     padding: 5px;
     border: 1px solid rgb(145, 143, 143);
     height: fit-content;
     width: fit-content;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 70;
     line-height: 1.2;
     color: rgb(56, 56, 56);
@@ -222,18 +228,14 @@
     background-color: #e9ecef; 
 }
 .article {
-    margin: 0 50px;
-    margin-top: 20px;
+    margin: 20px 5px;
     background-color: white;
     padding: 10px;
+    border-radius: 0.3rem;
 }
 
 .article-footer {
     background-color: #d6d6d6 !important;
-}
-.underTitle .fa-clock {
-    width: 0.7em;
-    margin-right: 2px;
 }
 .underTitle span{
     margin-right: 5px;
@@ -260,4 +262,11 @@
     .containerr{
         width: 765px;
     }
+}
+
+.navbar-brand {
+    font-family: 'Patua One', cursive;
+    font-size: 2rem;
+    margin: 0 20px;
+    padding: 0;
 }

@@ -9,6 +9,10 @@
     e.preventDefault();
     $("body").toggleClass("sidenav-toggled");
     $(".navbar-sidenav .nav-link-collapse").addClass("collapsed");
+    $(".img").removeClass("img-small");
+    $(".img").addClass(".img-big");
+    $(".img").removeClass("img-big");
+    $(".img").addClass(".img-small");
     $(".navbar-sidenav .sidenav-second-level, .navbar-sidenav .sidenav-third-level").removeClass("show");
   });
   // Force the toggled class to be removed when a collapsible nav link is clicked
