@@ -263,9 +263,11 @@
     font-weight: 70;
     line-height: 1.2;
     color: rgb(56, 56, 56);
+    text-align: center;
 }
 .display-heading {
     font-family: 'Patua One', cursive;
+    text-align: center;
     font-size: 2.5rem;
     font-weight: 200;
     line-height: 1.2;
