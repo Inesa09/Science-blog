@@ -9,8 +9,6 @@
 
 
 /* Code Highlighting */
-
-
 code,
 pre {
   padding: 0 3px 2px;
@@ -190,11 +188,6 @@ a:focus { color: #34495E; }
 .label:hover,
 .label:focus {color:#eee; }
 
-ul, ol {
-  margin-bottom: 0.273em;
-  margin-left: 1.5em;
-}
-
 ul {
   list-style: disc outside;
 }
@@ -215,3 +208,38 @@ ul.blank {
 @media only screen and (max-width: 600px) {
   #banner h1 a {font-size:22px!important; line-height:24px;}
 }
+
+
+
+/* .prompt {
+  min-width: 10ex;
+  padding: 0.4em;
+  margin: 0;
+  font-family: monospace;
+  text-align: right;
+  line-height: 1.21429em
+  }
+@media (max-width: 540px) {
+  .prompt {
+      text-align: left
+      }
+  }
+
+div.input_prompt {
+    color: navy;
+    border-top: 1px solid transparent
+    }
+div.out_prompt_overlay {
+      height: 100%;
+      padding: 0 0.4em;
+      position: absolute;
+      border-radius: 2px
+      }
+div.out_prompt_overlay:hover {
+      -webkit-box-shadow: inset 0 0 1px #000;
+      box-shadow: inset 0 0 1px #000;
+      background: rgba(240, 240, 240, 0.5)
+      }
+div.output_prompt {
+      color: darkred
+      } */
