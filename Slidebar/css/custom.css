@@ -79,7 +79,7 @@
     }
     .img {
         margin-left: 5px;
-    }
+    }  
     .img-small {
         height: 20px;
     }
@@ -293,5 +293,30 @@
     padding: 9.5px;
     margin: 0;
 }
+.ipynotebook div.output_subarea pre{
+    padding: 0.4em;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    background: #f7f7f7;
+}
+.ipynotebook img {
+    max-width: 100%;
+    margin: 5px;
+}
+.ipynotebook .table{
+    font-size: 12.5px;
+}
+.ipynotebook .table td{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ipynotebook .table th {
+    text-align: center;
+}
+
 
 

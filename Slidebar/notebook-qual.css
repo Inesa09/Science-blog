@@ -4,7 +4,6 @@
 *
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-
 .ipynotebook html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -1315,7 +1314,7 @@
     border: 1px solid #ddd
     }
 .ipynotebook .table-bordered > thead > tr > th, .ipynotebook .table-bordered > tbody > tr > th, .ipynotebook .table-bordered > tfoot > tr > th, .ipynotebook .table-bordered > thead > tr > td, .ipynotebook .table-bordered > tbody > tr > td, .ipynotebook .table-bordered > tfoot > tr > td {
-    border: 1px solid #ddd
+    border: 1px solid #ddd !important
     }
 .ipynotebook .table-bordered > thead > tr > th, .ipynotebook .table-bordered > thead > tr > td {
     border-bottom-width: 2px
@@ -5310,7 +5309,7 @@
     border-radius: 0
     }
 .ipynotebook div.output_subarea {
-    padding: 0.4em;
+    padding: 0.4em 0;
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     box-flex: 1;
