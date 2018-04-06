@@ -206,7 +206,7 @@ body.fixed-nav {
 
 @media (min-width: 992px) {
   #mainNav.fixed-top .navbar-sidenav {
-    height: calc(100vh - 112px);
+    height: calc(100vh - 100px);
   }
   #mainNav.fixed-top .sidenav-toggler {
     position: absolute;
@@ -216,14 +216,11 @@ body.fixed-nav {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: calc(100vh - 56px);
+    margin-top: calc(100vh - 45px);
   }
   #mainNav.fixed-top .sidenav-toggler > .nav-item {
     width: 250px;
     padding: 0;
-  }
-  #mainNav.fixed-top .sidenav-toggler > .nav-item > .nav-link {
-    padding: 1em;
   }
 }
 
@@ -411,6 +408,8 @@ footer.sticky-footer {
   height: 45px; 
   line-height: 44px;
   background-color: #7d8185;
+  color: white;
+  text-shadow: 0 1px 2px #191a1b, 0 1px 0 #191a1b;
 }
 
 @media (min-width: 992px) {

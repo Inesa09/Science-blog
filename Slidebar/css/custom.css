@@ -278,10 +278,10 @@
 }
 .display-heading {
     font-family: 'Patua One', cursive;
-    text-align: center;
     font-size: 2.5rem;
     font-weight: 200;
     line-height: 1.2;
+    margin-left: 10px;
     color: rgb(104, 103, 103);
 }
 .article-content {
