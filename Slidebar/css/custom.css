@@ -126,14 +126,15 @@
     flex-direction: column;
     align-items: center;
 }
-
-
-
 .containerr {
     margin-top: 20px;
-    background-color: #e9ecef; 
-    border-radius: 0.3rem;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white; 
+    border-radius: 0.2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     padding: 10px;
+    
 }
 .page {
     padding: 0;
@@ -318,5 +319,26 @@
     text-align: center;
 }
 
-
-
+#exampleAccordion{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.fa-fw{
+    font-size: 0.7rem;
+}
+.containerrForContainer{
+    display: flex;
+    background-color: #e9ecef;
+}
+.container-fluid{
+    background: #e9ecef;
+}
+.subcontainer{
+    display: flex;
+}
+.fa-clock-o{
+    display: flex;
+    align-self: center;
+    height: 0.65rem;
+    width: 0.75rem;
+}
