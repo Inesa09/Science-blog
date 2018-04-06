@@ -168,9 +168,6 @@ body.fixed-nav {
     width: 250px;
     padding: 0;
   }
-  #mainNav .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
-    padding: 1em;
-  }
 
   #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
   #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
@@ -274,7 +271,7 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
 
 .content-wrapper {
   overflow-x: hidden;
-  background: white;
+  background: #e9ecef;
 }
 
 @media (min-width: 992px) {
@@ -410,9 +407,9 @@ footer.sticky-footer {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 40px; 
-  background-color: #d6d6d6;
-  line-height: 39px;
+  height: 45px; 
+  line-height: 44px;
+  background-color: #7d8185;
 }
 
 @media (min-width: 992px) {

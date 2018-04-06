@@ -15,12 +15,13 @@
   <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
-    <!-- Page level plugin CSS-->
-    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
-          <!-- My custom design-->
-          <link href="css/custom.css" rel="stylesheet">
-          <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <!-- My custom design-->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link rel="stylesheet" href="theme.css" type="text/css">
+    <link rel="stylesheet" href="notebook-qual.css" type="text/css">
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -30,13 +31,13 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <a class="navbar-brand" href="index.html">Anindya's Blog</a>
 
-    <button class="navbar-toggler navbar-toggler-right" id="mobileSidenav" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
       
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav scrolling-box" id="exampleAccordion">
-        <img class="nav-item img img-big img-small" src="img.jpg">
+        <img class="nav-item" src="img.jpg" height="100px">
           <!-- <ul class="navbar-nav navbar-sidenav" id="scrolling-box exampleAccordion"> -->
           <!-- <img src="img.jpg" width = "255px" height="100px"> -->
 
@@ -80,6 +81,7 @@
           </ul>
         </li>
 
+
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Data Analysis"  onclick="toggle_visibility2('tags');">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-circle"></i>
@@ -107,7 +109,7 @@
         </li>
 
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tags">
-          <a class="heading nav-link">
+          <a class="heading nav-link" >
             <i class="fa fa-fw fa-bookmark"></i>
             <span class="nav-link-text">Tags</span>
           </a>
@@ -126,11 +128,11 @@
       </ul>
 
       <ul class="navbar-nav sidenav-toggler scrolling-box">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="sidenavToggler"   onclick="toggle_visibility('tags');">
-            <i class="fa fa-fw fa-angle-left"></i>
-          </a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" id="sidenavToggler" onclick="toggle_visibility('tags');">
+              <i class="fa fa-fw fa-angle-left"></i>
+            </a>
+          </li>
       </ul>
 
       <ul class="navbar-nav ml-auto top-bar">
@@ -152,70 +154,64 @@
   </nav>
 
 
-  <div class="content-wrapper">
+  <div class="content-wrapper  article-background">
   <div class="container-fluid">
-    <div class="shell">
-    <div class="jumbotron page" id="page1">
-        <div class="containerrForContainer"></div>
-        <div class="containerr">
-            <h1 class="display-3">Heading</h1>
-            <div class="underTitle">
-                <span class="creatorName">FirstName Surname </span>
-                <i class="fa fa-fw fa-clock-o"></i>
-                <span class="dataCreation">mm/dd/yyyy hh:mm:ss</span>
-            </div>
-            <div class="subcontainer">
-            <img src="img/simg.png" height="150px" width="150px">  
-            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti illum, sint quod id beatae soluta cum alias illo cumque. Impedit ex obcaecati quos voluptas similique perferendis cum pariatur ullam asperiores! In this article we teach you how to add pagination, an excellent way to navigate large amounts of content, to your website using a jQuery Bootstrap Plugin.</p>
-            </div>
-            <p class="prebtn"><a class="btn btn-lg btn-success" href="topic1.html" role="button">Learn More</a></p>
-            <div class="articleTags">
-                <span class="tagsText">Tags:  </span>
-                <span class="badge badge-primary">Secondary</span>
-                <span class="badge badge-primary">Success</span>
-                <span class="badge badge-primary">Danger</span>
-                <span class="badge badge-primary">Warning</span>
-                <span class="badge badge-primary">Info</span>
-                <span class="badge badge-primary">Light</span>
-                <span class="badge badge-primary">Dark</span>
-            </div>
+
+    <div class="article">
+      <div class="article-top">
+        <div class="article-top-element">
+          <h1 class="display-heading">Kaggle - Predicting Bike Sharing Demand</h1>
+          <div class="tags">
+              <span class="tagsText-in-article">Posted by </span>
+              <span class="badge badge-danger">Danger</span>
+              <span class="tagsText-in-article">under </span>
+              <span class="badge badge-primary">Primary</span>
+              <span class="badge badge-primary">Secondary</span>
+              <span class="badge badge-primary">Success</span>
+              <span class="badge badge-primary">Danger</span>
+              <span class="badge badge-primary">Warning</span>
+              <span class="badge badge-primary">Info</span>
+              <span class="badge badge-primary">Light</span>
+              <span class="badge badge-primary">Dark</span>
+              <span class="badge badge-primary">Darker</span>
           </div>
-  
-          <div class="containerr">
-              <h1 class="display-3">Heading</h1>
-              <div class="underTitle">
-                  <span class="creatorName">FirstName Surname </span>
-                  <i class="fa fa-fw fa-clock-o"></i>
-                  <span class="dataCreation">mm/dd/yyyy hh:mm:ss</span>
-              </div>
-              <div class="subcontainer">
-                  <img src="img/glassimg.png" height="150px" width="150px">  
-                  <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti illum, sint quod id beatae soluta cum alias illo cumque. Impedit ex obcaecati quos voluptas similique perferendis cum pariatur ullam asperiores! In this article we teach you how to add pagination, an excellent way to navigate large amounts of content, to your website using a jQuery Bootstrap Plugin.</p>
-                  </div>
-              <p class="prebtn"><a class="btn btn-lg btn-success" href="topic2.html" role="button">Learn More</a></p>
-              <div class="articleTags">
-                  <span class="tagsText">Tags:  </span>
-                  <span class="badge badge-primary">Secondary</span>
-                  <span class="badge badge-primary">Success</span>
-                  <span class="badge badge-primary">Danger</span>
-                  <span class="badge badge-primary">Warning</span>
-                  <span class="badge badge-primary">Info</span>
-                  <span class="badge badge-primary">Light</span>
-                  <span class="badge badge-primary">Dark</span>
-              </div>
+        </div>
+
+        <div class="article-top-element">
+          <p class="date">March 3 2018</p>
+        </div>
+      </div>
+
+      <p class="lead article-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti illum, sint quod id beatae soluta cum alias illo cumque. Impedit ex obcaecati quos voluptas similique perferendis cum pariatur ullam asperiores! In this article we teach you how to add pagination, an excellent way to navigate large amounts of content, to your website using a jQuery Bootstrap Plugin.</p>
+      <div class="ipynotebook" id="notebook-container">
+      <div class="cell border-box-sizing code_cell rendered">
+        <div class="input">
+            <div class="prompt input_prompt">In&nbsp;[1]:</div>
+            <div class="inner_cell">
+                <div class="input_area">
+                    <div class=" highlight hl-ipython2"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">mdtraj</span> <span class="kn">as</span> <span class="nn">md</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">PCA</span>
+</pre></div>
+
+                </div>
             </div>
         </div>
+
     </div>
 
-  
-    <ul id="pagination-demo" class="pagination-lg pull-right pagination" ></ul>
-</div>
+
+  </div>
+    </div>
+
   </div>
   </div>
 
   <!-- /.container-fluid-->
   <!-- /.content-wrapper-->
-  <footer class="sticky-footer">
+  <footer class="sticky-footer article-footer">
     <div class="container">
       <div class="text-center">
         <small>Copyright © Your Website 2018</small>
@@ -245,7 +241,7 @@
   <script src="js/sb-admin-datatables.js"></script>
   <script src="js/sb-admin-charts.js"></script>
   <script src="https://www.solodev.com/_/assets/pagination/jquery.twbsPagination.js"></script>   
-  <script src="js/script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
